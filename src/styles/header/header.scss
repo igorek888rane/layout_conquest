@@ -1,0 +1,41 @@
+header {
+  padding: 36px 0 ;
+  .header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header_content_logo{
+      display: flex;
+      align-items: center;
+    span{
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.14em;
+      color: #555248;
+      font-family: 'Playfair Display', serif;
+    }
+    }
+    .header_content_navigation{
+      display: flex;
+      grid-gap: 65px;
+      a{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #555248;
+      }
+    }
+    .header_content_icon{
+      display: flex;
+      grid-gap: 23px;
+      img{
+        width: 19px;
+        height: 16px;
+        cursor: pointer;
+      }
+    }
+
+  }
+}

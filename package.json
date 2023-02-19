@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack serve --hot --open",
     "build": "webpack -c webpack.config.js",
+    "build prod": "webpack -c webpack.config.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
