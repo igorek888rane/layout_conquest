@@ -1,8 +1,6 @@
 .collection {
   .collection_content {
     display: flex;
-    justify-content: space-between;
-
     .collection_content_season {
       position: relative;
       left: 20px;
@@ -77,7 +75,6 @@
 
       .collection_content_watch_main_info {
         position: relative;
-
         p {
           display: flex;
           align-items: center;
