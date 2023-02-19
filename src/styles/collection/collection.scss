@@ -1,13 +1,10 @@
 .collection {
-
-
   .collection_content {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 
     .collection_content_season {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
+      position: relative;
       left: 20px;
       top: 221px;
       z-index: 100;
@@ -24,6 +21,7 @@
           font-size: 45px;
           line-height: 60px;
           color: #1B1A17;
+          width: 343px;
         }
       }
 
@@ -73,17 +71,17 @@
 
     .collection_content_watch_main {
       display: flex;
-      position: absolute;
+      justify-content: center;
+      position: relative;
+      right: 220px;
 
       .collection_content_watch_main_info {
-
-        position: absolute;
+        position: relative;
 
         p {
           display: flex;
           align-items: center;
           grid-gap: 15px;
-
           font-family: 'Prata', serif;
           font-style: normal;
           font-weight: 400;
@@ -93,31 +91,34 @@
         }
 
         &.price {
-          left: 483px;
-          top: 123px;
+          top:155px;
+          left: 282px;
+          align-self: start;
           width: 178px;
         }
 
+
         &.size {
-          left: 1030px;
-          top: 621px;
+          bottom: 125px;
+          left: 70px;
+          align-self: end;
           width: 200px;
         }
       }
 
       .collection_content_watch_main_watch {
-        display: flex;
+
 
         .collection_content_watch_main_background {
           height: 775px;
-          position: absolute;
-          left: 369px;
         }
 
         .collection_content_watch_main_img {
+
           position: absolute;
-          left: 562px;
+          left: 362px;
         }
+
       }
 
 
