@@ -5,7 +5,6 @@
 }
 .btn{
   color: #FFFFFF;
-  margin-left: 65px;
   padding: 26px 38px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -16,5 +15,15 @@
   text-transform: uppercase;
   align-self: start;
   margin-top: 64px;
+  cursor: pointer;
+}
 
+
+h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+  text-align: center;
 }
