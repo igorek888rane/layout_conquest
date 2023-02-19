@@ -1,0 +1,29 @@
+.social_network{
+  padding-top:81px;
+  padding-bottom:90px;
+  .social_network_content{
+    display: flex;
+    grid-gap: 71px;
+    height: 460px;
+
+    .social_network_content_text{
+      display: flex;
+      flex-direction: column;
+      margin-top: 140px;
+      p{
+        margin-top: 40px;
+        width: 376px;
+      }
+      .social_network_content_text_icons{
+        display: flex;
+        grid-gap: 18px;
+        margin-top: 125px;
+      }
+    }
+    .social_network_content_images{
+      display: flex;
+      flex-flow: column wrap;
+      grid-gap: 10px;
+    }
+  }
+}
