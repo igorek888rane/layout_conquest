@@ -4,6 +4,10 @@
 
   .slider__content {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    grid-gap: 64px;
     .slider__img {
       display: flex;
       flex-direction: column;

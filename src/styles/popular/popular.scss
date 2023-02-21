@@ -1,5 +1,6 @@
 .popular {
   padding-bottom: 86px;
+
   .popular__content {
 
     h2 {
@@ -9,7 +10,9 @@
 
     .popular__models {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
+      flex-flow: row wrap;
+      grid-gap: 26px;
       margin-top: 52px;
 
 
@@ -34,7 +37,8 @@
           line-height: 16px;
           color: rgba(27, 26, 23, 0.82)
         }
-        .popular__item_img{
+
+        .popular__item_img {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -44,13 +48,15 @@
           background-color: #FFFFFF;
           border: 1px solid #E2D0C4;
         }
-        .popular__item_more{
+
+        .popular__item_more {
           display: flex;
           align-items: center;
           grid-gap: 18px;
           margin-top: 19px;
           cursor: pointer;
-          .popular__line{
+
+          .popular__line {
             width: 30px;
           }
         }

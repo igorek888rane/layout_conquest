@@ -3,8 +3,10 @@
   padding-bottom:90px;
   .social__content{
     display: flex;
-    grid-gap: 71px;
-    height: 460px;
+    justify-content: center;
+    flex-flow: row wrap;
+    grid-gap: 65px;
+    //height: 460px;
 
     .social__text{
       display: flex;
@@ -22,8 +24,15 @@
     }
     .social__images{
       display: flex;
-      flex-flow: column wrap;
+      flex-flow: row wrap;
       grid-gap: 10px;
+      .images_left{
+        display: flex;
+        flex-direction: column;
+        grid-gap: 10px;
+
+
+      }
     }
   }
 }
