@@ -11,7 +11,6 @@
     .collection__season {
       position: relative;
       left: 20px;
-      //top: 221px;
       z-index: 100;
 
       .collection__header {
@@ -107,9 +106,9 @@
 
       .collection__item {
 
+
         .collection__item_background {
           height: 768px;
-          //max-width: 100%;
         }
 
         .collection__item_img {
@@ -129,52 +128,73 @@
 }
 
 
-//@media (max-width: 1120px) {
-//  .collection {
-//    .collection__content {
-//      .collection__watch_main {
-//        right: 320px;
-//      }
-//    }
-//  }
-//
-//}
-//
-//@media (max-width: 1010px) {
-//  .collection {
-//    .collection__content {
-//      .collection__watch_main {
-//        right: 420px;
-//      }
-//    }
-//  }
-//
-//}
-//
-//@media (max-width: 930px) {
-//  .collection {
-//    .collection__content {
-//      .collection__season {
-//        .collection__header {
-//          .collection__line {
-//            display: none;
-//          }
-//        }
-//
-//        .collection__sub {
-//          margin-left: 0;
-//        }
-//      }
-//
-//      .collection__watch_main {
-//        right: 430px;
-//
-//        .size {
-//          display: none;
-//        }
-//      }
-//    }
-//  }
-//
-//}
+@media (max-width: 1120px) {
+  .collection {
+    .collection__content {
+      .collection__watch_main {
+        right: 320px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1010px) {
+  .collection {
+    .collection__content {
+      .collection__watch_main {
+        right: 420px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 930px) {
+  .collection {
+    .collection__content {
+      .collection__season {
+        left: 60px;
+        .collection__header {
+          .collection__line {
+            display: none;
+          }
+        }
+
+        .collection__sub {
+          margin-left: 0;
+        }
+      }
+
+      .collection__watch_main {
+        right: 430px;
+
+        .size {
+          display: none;
+        }
+      }
+    }
+  }
+
+}
+@media (max-width:800px) {
+  .collection {
+    .collection__content {
+      justify-content: center;
+      height: 768px;
+      .collection__season {
+        left: -10px;
+      }
+      .collection__watch_main {
+     display: none;
+        .collection__item_background{
+
+        }
+        .collection__info{
+         display: none;
+        }
+      }
+    }
+  }
+}
 
