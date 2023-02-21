@@ -6,7 +6,6 @@
 
     .collection__line {
       width: 50px;
-      //width: 100%;
     }
 
     .collection__season {
@@ -70,7 +69,6 @@
       justify-content: center;
       position: relative;
       right: 220px;
-      //margin-left:-220px ;
 
       .collection__info {
         display: flex;
@@ -110,14 +108,15 @@
       .collection__item {
 
         .collection__item_background {
-          height: 762px;
-          max-width: 496px;
+          height: 768px;
+          //max-width: 100%;
         }
 
         .collection__item_img {
           position: absolute;
           left: 362px;
-          max-width: 496px;
+          max-width: 100%;
+
 
 
         }
@@ -130,52 +129,52 @@
 }
 
 
-@media (max-width: 1120px) {
-  .collection {
-    .collection__content {
-      .collection__watch_main {
-        right: 320px;
-      }
-    }
-  }
-
-}
-
-@media (max-width: 1010px) {
-  .collection {
-    .collection__content {
-      .collection__watch_main {
-        right: 420px;
-      }
-    }
-  }
-
-}
-
-@media (max-width: 930px) {
-  .collection {
-    .collection__content {
-      .collection__season {
-        .collection__header {
-          .collection__line {
-            display: none;
-          }
-        }
-
-        .collection__sub {
-          margin-left: 0;
-        }
-      }
-
-      .collection__watch_main {
-        right: 430px;
-
-        .size {
-          display: none;
-        }
-      }
-    }
-  }
-
-}
+//@media (max-width: 1120px) {
+//  .collection {
+//    .collection__content {
+//      .collection__watch_main {
+//        right: 320px;
+//      }
+//    }
+//  }
+//
+//}
+//
+//@media (max-width: 1010px) {
+//  .collection {
+//    .collection__content {
+//      .collection__watch_main {
+//        right: 420px;
+//      }
+//    }
+//  }
+//
+//}
+//
+//@media (max-width: 930px) {
+//  .collection {
+//    .collection__content {
+//      .collection__season {
+//        .collection__header {
+//          .collection__line {
+//            display: none;
+//          }
+//        }
+//
+//        .collection__sub {
+//          margin-left: 0;
+//        }
+//      }
+//
+//      .collection__watch_main {
+//        right: 430px;
+//
+//        .size {
+//          display: none;
+//        }
+//      }
+//    }
+//  }
+//
+//}
 
