@@ -1,4 +1,6 @@
-
+body{
+  font-family: 'Playfair Display', serif;
+}
 .content{
   margin: 0 auto;
   max-width: 1166px;
@@ -26,4 +28,8 @@ h2 {
   line-height: 43px;
   color: #1B1A17;
   text-align: center;
+}
+.line{
+  height: 0;
+  border: 1px solid #8B8371;
 }

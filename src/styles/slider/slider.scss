@@ -2,19 +2,15 @@
   background: linear-gradient(to right, #F7F5EF 35%, #FDFDFB 1%, #FDFDFB 64%);
   padding: 52px 0;
 
-  .slider_content {
-    margin: 0 auto;
-    max-width: 1500px;
+  .slider__content {
     display: flex;
-
-
-    .slider_img {
+    .slider__img {
       display: flex;
       flex-direction: column;
       align-items: start;
       grid-gap: 20px;
-      margin-left: 177px;
-      .slider_img_toggle{
+      margin-left: 77px;
+      .slider__toggle{
         display: flex;
         align-items: center;
         grid-gap: 20px;
@@ -34,7 +30,7 @@
       }
 
     }
-    .slider_info{
+    .slider__info{
       display: flex;
       flex-direction: column;
       align-items: start;

@@ -7,7 +7,7 @@ module.exports = {
     output: {
         path: __dirname + '/public',
         filename: 'bandle.js',
-        assetModuleFilename: 'assets/images/[name]-[hash][ext]'
+        // assetModuleFilename: 'assets/images/[name]-[hash][ext]'
     },
     devServer: {
         port: 5000,

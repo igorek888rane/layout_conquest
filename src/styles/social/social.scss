@@ -1,12 +1,12 @@
-.social_network{
+.social{
   padding-top:81px;
   padding-bottom:90px;
-  .social_network_content{
+  .social__content{
     display: flex;
     grid-gap: 71px;
     height: 460px;
 
-    .social_network_content_text{
+    .social__text{
       display: flex;
       flex-direction: column;
       margin-top: 140px;
@@ -14,13 +14,13 @@
         margin-top: 40px;
         width: 376px;
       }
-      .social_network_content_text_icons{
+      .social__icons{
         display: flex;
         grid-gap: 18px;
         margin-top: 125px;
       }
     }
-    .social_network_content_images{
+    .social__images{
       display: flex;
       flex-flow: column wrap;
       grid-gap: 10px;

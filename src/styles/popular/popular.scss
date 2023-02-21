@@ -1,19 +1,19 @@
-.popular_model {
+.popular {
   padding-bottom: 86px;
-  .popular_model_content {
+  .popular__content {
 
     h2 {
       margin-top: 75px;
 
     }
 
-    .popular_models {
+    .popular__models {
       display: flex;
       justify-content: space-between;
       margin-top: 52px;
 
 
-      .popular_models_item {
+      .popular__item {
         background-color: #FDFDFB;
         padding: 79px 29px 75px 29px;
 
@@ -34,7 +34,7 @@
           line-height: 16px;
           color: rgba(27, 26, 23, 0.82)
         }
-        .popular_models_item_img{
+        .popular__item_img{
           display: flex;
           justify-content: center;
           align-items: center;
@@ -44,16 +44,14 @@
           background-color: #FFFFFF;
           border: 1px solid #E2D0C4;
         }
-        .popular_models_item_more{
+        .popular__item_more{
           display: flex;
           align-items: center;
           grid-gap: 18px;
           margin-top: 19px;
           cursor: pointer;
-          .popular_models_item_more_line{
-            height: 1px;
+          .popular__line{
             width: 30px;
-            border: 1px solid #8B8371;
           }
         }
       }
