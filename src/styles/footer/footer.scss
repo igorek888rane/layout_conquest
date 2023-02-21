@@ -3,7 +3,8 @@ footer {
 
   .footer__content {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-gap: 120px;
     padding: 79px 82px 67px;
 
     .footer__item {
@@ -11,29 +12,26 @@ footer {
       flex-direction: column;
       grid-gap: 32px;
 
-      span {
+
+
+      .footer__header {
+        display: flex;
+        font-family: 'Roboto', serif;
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
         line-height: 19px;
         letter-spacing: 0.14em;
         color: #FFFFFF;
-      }
-
-      .footer__header {
-        font-family: 'Roboto', serif;
-
-      }
-
-      .footer__logo {
-        display: flex;
-        align-items: center;
-
-        .footer__logo_name {
-          align-self: end;
+        &.logo{
+          font-family: 'Playfair Display', serif;
+        .footer__name{
+          align-self: center;
         }
-
+        }
       }
+
+
 
       .footer__anchor {
         display: flex;
@@ -53,3 +51,13 @@ footer {
     }
   }
 }
+
+//@media (max-width: 767px) {
+//  .footer__content{
+//    //flex-direction: column;
+//    //justify-content: center;
+//    //align-items: center;
+//    //grid-gap: 20px;
+//    justify-content: center;
+//  }
+//}

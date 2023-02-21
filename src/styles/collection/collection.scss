@@ -1,20 +1,25 @@
 .collection {
   .collection__content {
     display: flex;
+    align-items: center;
 
-    .collection__line{
+
+    .collection__line {
       width: 50px;
+      //width: 100%;
     }
+
     .collection__season {
       position: relative;
       left: 20px;
-      top: 221px;
+      //top: 221px;
       z-index: 100;
 
       .collection__header {
         display: flex;
         align-items: center;
         grid-gap: 15px;
+
 
         h1 {
           font-style: normal;
@@ -23,37 +28,40 @@
           line-height: 60px;
           color: #1B1A17;
           width: 343px;
+
         }
       }
 
-      span {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 40px;
-        color: #1B1A17;
+      .collection__sub {
         margin-left: 65px;
-        margin-top: 15px;
+
+        span {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 30px;
+          line-height: 40px;
+          color: #1B1A17;
+          margin-top: 15px;
+        }
+
+        p {
+          font-family: 'Roboto', sans-serif;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 21px;
+          color: rgba(27, 26, 23, 0.82);
+          max-width: 258px;
+          width: 100%;
+          margin-top: 39px;
+
+        }
+
+        button {
+          background-color: #444240;
+        }
       }
 
-      p {
-        font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 14px;
-        line-height: 21px;
-        color: rgba(27, 26, 23, 0.82);
-        max-width: 258px;
-        width: 100%;
-        margin-left: 65px;
-        margin-top: 39px;
-
-      }
-
-      button {
-        background-color: #444240;
-        margin-left: 65px;
-      }
 
     }
 
@@ -62,12 +70,14 @@
       justify-content: center;
       position: relative;
       right: 220px;
+      //margin-left:-220px ;
 
       .collection__info {
         display: flex;
         align-items: center;
         grid-gap: 18px;
         position: relative;
+        max-width: 250px;
 
         p {
           display: flex;
@@ -100,12 +110,16 @@
       .collection__item {
 
         .collection__item_background {
-          height: 775px;
+          height: 762px;
+          max-width: 496px;
         }
 
         .collection__item_img {
           position: absolute;
           left: 362px;
+          max-width: 496px;
+
+
         }
 
       }
@@ -114,3 +128,54 @@
     }
   }
 }
+
+
+@media (max-width: 1120px) {
+  .collection {
+    .collection__content {
+      .collection__watch_main {
+        right: 320px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 1010px) {
+  .collection {
+    .collection__content {
+      .collection__watch_main {
+        right: 420px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 930px) {
+  .collection {
+    .collection__content {
+      .collection__season {
+        .collection__header {
+          .collection__line {
+            display: none;
+          }
+        }
+
+        .collection__sub {
+          margin-left: 0;
+        }
+      }
+
+      .collection__watch_main {
+        right: 430px;
+
+        .size {
+          display: none;
+        }
+      }
+    }
+  }
+
+}
+
