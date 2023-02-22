@@ -117,7 +117,6 @@
           max-width: 100%;
 
 
-
         }
 
       }
@@ -155,6 +154,7 @@
     .collection__content {
       .collection__season {
         left: 60px;
+
         .collection__header {
           .collection__line {
             display: none;
@@ -177,21 +177,21 @@
   }
 
 }
-@media (max-width:800px) {
+
+@media (max-width: 800px) {
   .collection {
     .collection__content {
       justify-content: center;
       height: 768px;
+
       .collection__season {
         left: -10px;
       }
       .collection__watch_main {
-     display: none;
-        .collection__item_background{
+        display: none;
 
-        }
-        .collection__info{
-         display: none;
+        .collection__info {
+          display: none;
         }
       }
     }
